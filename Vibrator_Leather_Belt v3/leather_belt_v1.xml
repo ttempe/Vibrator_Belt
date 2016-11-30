@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/DELL/Documents/KiCad/Vibrator_Leather_Belt/leather_belt_v1.sch</source>
+    <date>2015-12-12 11:40:22</date>
+    <tool>Eeschema 4.0.0-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Vibrator belt</title>
+        <company>Thomas TEMPE</company>
+        <rev>1.0</rev>
+        <date>2015-12-10</date>
+        <source>leather_belt_v1.sch</source>
+        <comment number="1" value="Flex PCB for leather belt"/>
+        <comment number="2" value="Excluding control board"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="SR1">
+      <value>74HC164</value>
+      <footprint>SMD_Packages:SOIC-14_N</footprint>
+      <libsource lib="ttempe" part="74HC164"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667CE63</tstamp>
+    </comp>
+    <comp ref="C_IN1">
+      <value>CONN_01X04</value>
+      <footprint>Connect:bornier4</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667CF58</tstamp>
+    </comp>
+    <comp ref="C_OUT1">
+      <value>CONN_01X04</value>
+      <footprint>Connect:bornier4</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667D09D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F361</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F63E</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F698</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F6C1</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F6EC</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F717</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F73E</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2k2</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667F769</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5667FD8A</tstamp>
+    </comp>
+    <comp ref="V1">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5668363D</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56683FD6</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684039</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684AE7</tstamp>
+    </comp>
+    <comp ref="V3">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684AF4</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684B03</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684B09</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684E0F</tstamp>
+    </comp>
+    <comp ref="V5">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684E1C</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684E2B</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684E31</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684F60</tstamp>
+    </comp>
+    <comp ref="V7">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684F6D</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684F7C</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56684F82</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685535</tstamp>
+    </comp>
+    <comp ref="V2">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685542</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685552</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685558</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685561</tstamp>
+    </comp>
+    <comp ref="V4">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5668556E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5668557D</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685583</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5668558C</tstamp>
+    </comp>
+    <comp ref="V6">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56685599</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855A8</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855AE</tstamp>
+    </comp>
+    <comp ref="Q8">
+      <value>Q_NPN_BEC</value>
+      <footprint>TO_SOT_Packages_SMD:SOT-23</footprint>
+      <libsource lib="device" part="Q_NPN_BEC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855B7</tstamp>
+    </comp>
+    <comp ref="V8">
+      <value>Vibrator</value>
+      <footprint>ttempe_lib:Vibrator2</footprint>
+      <libsource lib="ttempe" part="Vibrator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855C4</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>Led_Small</value>
+      <footprint>LEDs:LED-0603</footprint>
+      <libsource lib="device" part="Led_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855D3</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>R_Small</value>
+      <footprint>Resistors_SMD:R_0603_HandSoldering</footprint>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566855D9</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B99B3</tstamp>
+    </comp>
+    <comp ref="S3">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9A3A</tstamp>
+    </comp>
+    <comp ref="S5">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9AB1</tstamp>
+    </comp>
+    <comp ref="S7">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9B2A</tstamp>
+    </comp>
+    <comp ref="S2">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9CD1</tstamp>
+    </comp>
+    <comp ref="S4">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9D4C</tstamp>
+    </comp>
+    <comp ref="S6">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9DD3</tstamp>
+    </comp>
+    <comp ref="S8">
+      <value>Solenoid</value>
+      <footprint>ttempe_lib:Vibrator_antenna</footprint>
+      <libsource lib="ttempe" part="Solenoid"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>566B9E52</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ttempe" part="74HC164">
+      <description>8-bit SIPO Shift register</description>
+      <docs>C:/Users/DELL/Documents/Dev/datasheets/74HC_HCT164.pdf</docs>
+      <fields>
+        <field name="Reference">SR</field>
+        <field name="Value">74HC164</field>
+      </fields>
+      <pins>
+        <pin num="1" name="DSA" type="input"/>
+        <pin num="2" name="DSB" type="input"/>
+        <pin num="3" name="Q0" type="output"/>
+        <pin num="4" name="Q1" type="output"/>
+        <pin num="5" name="Q2" type="output"/>
+        <pin num="6" name="Q3" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="CLK" type="input"/>
+        <pin num="9" name="RST" type="input"/>
+        <pin num="10" name="Q4" type="output"/>
+        <pin num="11" name="Q5" type="output"/>
+        <pin num="12" name="Q6" type="output"/>
+        <pin num="13" name="Q7" type="output"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <description>Connector 01x04</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Led_Small">
+      <description>Led</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Led_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Q_NPN_BEC">
+      <description>Transistor NPN (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BEC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor</description>
+      <footprints>
+        <fp>Resistor_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ttempe" part="Solenoid">
+      <description>Solenoid antenna for vibrator detection</description>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">Solenoid</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ttempe" part="Vibrator">
+      <description>Coin vibrator, 3v3, 100mA</description>
+      <fields>
+        <field name="Reference">V</field>
+        <field name="Value">Vibrator</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_in"/>
+        <pin num="2" name="-" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="ttempe">
+      <uri>C:\Users\DELL\Documents\KiCad\ttempe.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q4-Pad3)">
+      <node ref="V4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="S6" pin="1"/>
+      <node ref="S8" pin="1"/>
+      <node ref="S4" pin="1"/>
+      <node ref="S3" pin="1"/>
+      <node ref="S5" pin="1"/>
+      <node ref="S7" pin="1"/>
+      <node ref="S2" pin="1"/>
+      <node ref="S1" pin="1"/>
+      <node ref="SR1" pin="7"/>
+      <node ref="C_IN1" pin="2"/>
+      <node ref="C_OUT1" pin="2"/>
+    </net>
+    <net code="3" name="+3V3">
+      <node ref="V5" pin="2"/>
+      <node ref="D8" pin="2"/>
+      <node ref="D5" pin="2"/>
+      <node ref="V7" pin="2"/>
+      <node ref="D6" pin="2"/>
+      <node ref="SR1" pin="9"/>
+      <node ref="V8" pin="2"/>
+      <node ref="C_IN1" pin="1"/>
+      <node ref="SR1" pin="14"/>
+      <node ref="D4" pin="2"/>
+      <node ref="C_OUT1" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="V1" pin="2"/>
+      <node ref="V2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="V6" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="V4" pin="2"/>
+      <node ref="V3" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q6-Pad3)">
+      <node ref="R14" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="V6" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q6-Pad2)">
+      <node ref="S6" pin="2"/>
+      <node ref="Q6" pin="2"/>
+    </net>
+    <net code="6" name="Net-(D4-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="7" name="Net-(Q4-Pad2)">
+      <node ref="S4" pin="2"/>
+      <node ref="Q4" pin="2"/>
+    </net>
+    <net code="8" name="Net-(Q8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q8" pin="1"/>
+    </net>
+    <net code="9" name="Net-(D6-Pad1)">
+      <node ref="D6" pin="1"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q2-Pad3)">
+      <node ref="R10" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="V2" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2"/>
+      <node ref="S2" pin="2"/>
+    </net>
+    <net code="12" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="13" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="14" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="15" name="Net-(Q7-Pad3)">
+      <node ref="V7" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="Q7" pin="3"/>
+    </net>
+    <net code="16" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="18" name="Net-(Q7-Pad2)">
+      <node ref="S7" pin="2"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="19" name="Net-(Q5-Pad2)">
+      <node ref="Q5" pin="2"/>
+      <node ref="S5" pin="2"/>
+    </net>
+    <net code="20" name="Net-(Q3-Pad2)">
+      <node ref="S3" pin="2"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="21" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="S1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(Q3-Pad3)">
+      <node ref="Q3" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="V3" pin="1"/>
+    </net>
+    <net code="23" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3"/>
+      <node ref="V8" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="24" name="Net-(Q8-Pad2)">
+      <node ref="S8" pin="2"/>
+      <node ref="Q8" pin="2"/>
+    </net>
+    <net code="25" name="Net-(D8-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="D8" pin="1"/>
+    </net>
+    <net code="26" name="Net-(Q6-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q6" pin="1"/>
+    </net>
+    <net code="27" name="Net-(Q4-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="28" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="29" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="SR1" pin="5"/>
+    </net>
+    <net code="30" name="Net-(R5-Pad2)">
+      <node ref="SR1" pin="4"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="31" name="Net-(R1-Pad2)">
+      <node ref="SR1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="32" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="33" name="/CLK">
+      <node ref="SR1" pin="8"/>
+      <node ref="C_OUT1" pin="4"/>
+      <node ref="C_IN1" pin="4"/>
+    </net>
+    <net code="34" name="Net-(C_OUT1-Pad3)">
+      <node ref="R8" pin="2"/>
+      <node ref="C_OUT1" pin="3"/>
+      <node ref="SR1" pin="13"/>
+    </net>
+    <net code="35" name="Net-(R7-Pad2)">
+      <node ref="SR1" pin="11"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="36" name="Net-(R6-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="SR1" pin="6"/>
+    </net>
+    <net code="37" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="SR1" pin="12"/>
+    </net>
+    <net code="38" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="SR1" pin="10"/>
+    </net>
+    <net code="39" name="Net-(C_IN1-Pad3)">
+      <node ref="SR1" pin="2"/>
+      <node ref="C_IN1" pin="3"/>
+      <node ref="SR1" pin="1"/>
+    </net>
+    <net code="40" name="Net-(Q5-Pad3)">
+      <node ref="Q5" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="V5" pin="1"/>
+    </net>
+    <net code="41" name="Net-(D5-Pad1)">
+      <node ref="R13" pin="1"/>
+      <node ref="D5" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="43" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="44" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+      <node ref="V1" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+  </nets>
+</export>
