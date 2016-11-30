@@ -11,6 +11,15 @@ Belt buckle/		Fusion360 model of the buckle (for aluminium machining or 3D print
 Vibrator_Leather_Belt/	Kicad files for making the flexible electronic circuit (along the length of the belt)
 Vibrator_Leather_Belt_Control_Box/  Kicd files for making the PCB circuit that fits in the buckle.
 Photos/			Photos of prototypes.
+Code/			Arduino code.
+
+
+The control board uses an ATMega32u4 at 8MHz.
+To get it running:
+* solder an 8MHz external oscillator on the back of the control board
+* flash the bootloader for 8MHz with internal oscillator
+* remove the external oscillator
+* Select the « LilyPad Arduino USB » board for flashing the program.
 
 
  
