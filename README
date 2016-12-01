@@ -1,15 +1,26 @@
 Vibrator Belt. 
 Copyright 2016, Thomas TEMPE
 
-The purpose of this project is to build a (physical) vibrating belt as a tool for sensory augmentation.
-The belt is fitted with coin vibrators along its length. The one that points north vibrates at all time.
-Use it continuously for 6 weeks, and you will grow a sense of direction. Take it off, and you will experience amputation.
+
+The purpose of this project is to build a (physical) vibrating belt as
+a tool for sensory augmentation.  The belt is fitted with coin
+vibrators along its length. The one that points north vibrates at all
+time.  Use it continuously for 6 weeks, and you will grow a sense of
+direction. Take it off, and you will experience amputation.
+
+For more background (and an award-winning product that you can
+actually buy), see http://www.feelspace.de/navibelt/
 
 Directory contents:
-Leather belt/		DXF files for manufacturing the flexible part of the belt (fabric, foam, steel band...)
-Belt buckle/		Fusion360 model of the buckle (for aluminium machining or 3D printing)
-Vibrator_Leather_Belt/	Kicad files for making the flexible electronic circuit (along the length of the belt)
-Vibrator_Leather_Belt_Control_Box/  Kicd files for making the PCB circuit that fits in the buckle.
+Leather belt/		DXF files for manufacturing the flexible part 
+			of the belt (fabric, foam, steel band...)
+			Can be edited with LibreCAD.
+Belt buckle/		Fusion360 model of the buckle (for aluminium 
+     			machining or 3D printing)
+Vibrator_Leather_Belt/	Kicad files for making the flexible electronic 
+			circuit (along the length of the belt)
+Vibrator_Leather_Belt_Control_Box/  Kicd files for making the PCB 
+			circuit that fits in the buckle.
 Photos/			Photos of prototypes.
 Code/			Arduino code for the microcontroller.
 Arduino/		Arduino hardware support for the microcontroller.
